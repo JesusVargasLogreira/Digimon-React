@@ -1,0 +1,24 @@
+.trivia {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.trivia img {
+    border-radius: 10px;
+}
+
+.trivia button {
+    padding: 10px;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.trivia .cambiar-pregunta {
+    background: #0084FF;
+}
+
+.trivia .opciones {
+    background: #7FFF00;
+    color: black;
+}

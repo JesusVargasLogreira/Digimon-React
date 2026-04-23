@@ -2,3 +2,47 @@
   background-color: yellow;
   font-weight: bold;
 }
+
+.imagenDigimon {
+  border-radius: 15px;
+}
+
+.tabla-container h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.filtros {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding-top: 20px
+}
+
+.filtros button {
+  background-color: #9B30FF;
+  padding: 5px;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+
+.campoTexto {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  ;
+}
+
+.campoTexto input {
+  padding: 10px;
+  width: 80%;
+}
+
+.tabla-container {
+  display: grid;
+  justify-items: center;
+}
+
+.tabla-container td ,th {
+  font-size: 20px;
+}

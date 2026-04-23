@@ -62,12 +62,14 @@ function Home() {
                 ))}
             </div>
 
-            <input
-                type="text"
-                placeholder='Buscar...'
-                value={busqueda}
-                onChange={(e) => setBusqueda(e.target.value)}
-            />
+            <div className='campoTexto'>
+                <input
+                    type="text"
+                    placeholder='Buscar...'
+                    value={busqueda}
+                    onChange={(e) => setBusqueda(e.target.value)}
+                />
+            </div>
 
             <div className="tabla-container">
                 <h2>Digimon</h2>
@@ -90,9 +92,13 @@ function Home() {
                                     }
 
                                 >
-                                    <td>{digimon.name}</td>
                                     <td>
-                                        <img src={digimon.img} width="80" />
+                                        <Link to={`/digimon/${digimon.name}`}>
+                                            {digimon.name}
+                                        </Link>
+                                    </td>
+                                    <td>
+                                        <img className='imagenDigimon' src={digimon.img} width="80" />
                                     </td>
                                     <td>{digimon.level}</td>
                                 </tr>
@@ -135,4 +141,4 @@ function Home() {
     )
 }
 
-export default Home
+export default Home;

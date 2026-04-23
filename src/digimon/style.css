@@ -1,0 +1,18 @@
+.informacion {
+    vertical-align: middle;
+}
+
+.informacion h1,
+.informacion p,
+.informacion button {
+    padding: 20px 0;
+}
+
+.informacion img {
+    width: 80%;
+}
+
+.informacion button {
+    padding: 10px;
+    font-size: 30px;
+}

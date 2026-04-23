@@ -1,5 +1,11 @@
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router';
 import Home from './home';
+import Favoritos from './favorito';
+import Original from './original';
+import Informativa from './informativa';
+import Usuario from './usuario';
+import Digimon from './digimon';
+
 import './App.css'
 
 function App() {
@@ -17,11 +23,11 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* <Route path="/favoritos" element={<Favoritos />} />
+          <Route path="/favoritos" element={<Favoritos />} />
           <Route path="/original" element={<Original />} />
           <Route path="/informativa" element={<Informativa />} />
           <Route path="/usuario" element={<Usuario />} />
-          <Route path="/digimon/:digimon" element={<Digimon />} /> */}
+          <Route path="/digimon/:digimon" element={<Digimon />} />
         </Routes>
       </Router>
     </>
