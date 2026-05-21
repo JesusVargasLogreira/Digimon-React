@@ -7,6 +7,8 @@ import Usuario from './usuario';
 import Digimon from './digimon';
 
 import './App.css'
+import Login from './login';
+import Registro from './registro';
 
 function App() {
 
@@ -28,6 +30,8 @@ function App() {
           <Route path="/informativa" element={<Informativa />} />
           <Route path="/usuario" element={<Usuario />} />
           <Route path="/digimon/:digimon" element={<Digimon />} />
+          <Route path='/login' element={<Login />} />
+          <Route path='/registro' element={<Registro />} />
         </Routes>
       </Router>
     </>
